@@ -9,6 +9,7 @@ public class persona {
     private String nom;
     private String cognom;
     private int edat;
+    private sexe sexe;
 
     public String getDni() {
         return dni;
