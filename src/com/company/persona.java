@@ -8,6 +8,7 @@ public class persona {
     private String dni;
     private String nom;
     private String cognom;
+    private int edat;
 
     public String getDni() {
         return dni;
@@ -31,5 +32,13 @@ public class persona {
 
     public void setCognom(String cognom) {
         this.cognom = cognom;
+    }
+
+    public int getEdat() {
+        return edat;
+    }
+
+    public void setEdat(int edat) {
+        this.edat = edat;
     }
 }
